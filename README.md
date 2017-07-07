@@ -51,6 +51,7 @@ Payoneer::Api::GetVersion.request
 ```ruby
 Payoneer::Api::GetToken.request(payee_id: 1000011)
 Payoneer::Api::GetToken.request(payee_id: 1000011, payout_methods: 'prepaidcard')
+Payoneer::Api::GetToken.request(payee_id: 1000011, registration_mode: 'alreadyhaveanaccount')
 Payoneer::Api::GetToken.request(payee_id: 1000011, redirect_url: 'http://example.com', redirect_time: 5)
 ```
 
